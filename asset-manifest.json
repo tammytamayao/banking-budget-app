@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a70fb99d.css",
+    "main.js": "/static/js/main.c54aa185.js",
+    "static/js/787.3e5e32e0.chunk.js": "/static/js/787.3e5e32e0.chunk.js",
+    "static/media/Deposit.jpg": "/static/media/Deposit.02e63b28c09bd6f1aa30.jpg",
+    "static/media/contactUsImg.png": "/static/media/contactUsImg.d8c93d0bf8987e3afefd.png",
+    "static/media/Atm-Chip-Icon.png": "/static/media/Atm-Chip-Icon.395f1d2245419b75bcf8.png",
+    "static/media/Mastercard-Icon.png": "/static/media/Mastercard-Icon.d03dd68eb344581c9f0c.png",
+    "static/media/homePageVector.png": "/static/media/homePageVector.7dbb8296a74201b42ee0.png",
+    "static/media/My-Profile-Icon.png": "/static/media/My-Profile-Icon.29c4df34387979a35fab.png",
+    "static/media/Transfer.jpg": "/static/media/Transfer.ee594a551297b92368ce.jpg",
+    "static/media/Manage-Account-Icon.jpg": "/static/media/Manage-Account-Icon.7735e0f9e42ec6be8a1a.jpg",
+    "static/media/Withdraw.jpg": "/static/media/Withdraw.71cc02e28b69d08ef208.jpg",
+    "static/media/bangkok-bold.ttf": "/static/media/bangkok-bold.1bd8c7ef245a6cde5c47.ttf",
+    "static/media/Loan-Icon.png": "/static/media/Loan-Icon.c8ba26774310c6235ba2.png",
+    "static/media/handlogo.jpeg": "/static/media/handlogo.3320096deb439011a8c8.jpeg",
+    "static/media/Money-Stash-Icon.png": "/static/media/Money-Stash-Icon.b3c75e276b844c173fbe.png",
+    "static/media/Transaction-Icon.png": "/static/media/Transaction-Icon.b35055887855e564edcd.png",
+    "static/media/Documents-Icon.png": "/static/media/Documents-Icon.f942138ecbbf360e8637.png",
+    "static/media/Insurance-Icon.png": "/static/media/Insurance-Icon.63cd9c75fd59e1fe8b35.png",
+    "static/media/Phone-Icon.jpg": "/static/media/Phone-Icon.3645ca2b8d004f8065b4.jpg",
+    "index.html": "/index.html",
+    "main.a70fb99d.css.map": "/static/css/main.a70fb99d.css.map",
+    "main.c54aa185.js.map": "/static/js/main.c54aa185.js.map",
+    "787.3e5e32e0.chunk.js.map": "/static/js/787.3e5e32e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a70fb99d.css",
+    "static/js/main.c54aa185.js"
+  ]
+}
