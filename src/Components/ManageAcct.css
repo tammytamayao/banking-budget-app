@@ -1,0 +1,79 @@
+.ManageAcct-container{
+    height: 100%;
+    width: auto;
+    background-color: rgb(221, 249, 224);
+  }
+
+.MA-title-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+
+.MA-title {
+    font-size: 42pt;
+    width:878px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.MA-title-container button {
+    background-color: rgba(132, 212, 127, 255);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    border: none;
+    border-radius: 10px;
+    font-size: 24pt;
+    height: 70px;
+    width: 35%;
+    padding: 5px 10px 5px 10px;
+}
+
+.MA-title-container button:hover {
+    background-color: black;
+    color: white;
+}
+
+.MA-btn {
+    height: 50px;
+}
+
+.MA-page-container {
+    display: flex;
+}
+
+.MA-body-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 132.3px 30px 112.3px;
+    height: 100%;
+}
+
+.MA-table-container {
+    width: 886px;
+}
+
+.MA-table-headers th{
+    font-size: 28px;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(132, 212, 127, 255);
+    color: black;
+}
+
+.MA-table-data {
+    font-size: 22px;
+}
+
+.MA-table-container th, .MA-table-container td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.MA-table-container tr {
+    background-color: #f2f2f2;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}

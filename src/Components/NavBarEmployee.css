@@ -1,0 +1,37 @@
+.NavBarEmployee-container {
+    height: 100%;
+    background-color: rgb(240, 251, 241);
+    display: flex;
+    justify-content: center;
+}
+
+.NavBarEmployee {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    width: 85px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.NBEicon {
+    max-width: 40px;
+    max-height: 40px;
+    padding: 15px;
+}
+
+.NBEicon:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    background-color: rgba(207, 254, 212, 255);
+    border-radius: 10px;
+}

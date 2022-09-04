@@ -1,0 +1,173 @@
+ /*Expense Form*/
+
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+.Expense-container{
+background-color: rgba(207, 254, 212, 255);
+width: 68.7%;
+}
+
+.expenseForm {
+display: flex;
+flex-direction: row;
+height: 90%;
+background-color: rgb(240, 251, 241);
+margin: 30px;
+border-radius: 50px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+padding: 10px;
+}
+
+.graph {
+  max-width: 100%;
+  height: 600px;
+  padding-top: 50px;
+}
+
+.expenseForm-container {
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-bottom: rgb(198, 198, 198);
+  border-bottom-style: solid;
+  border-top: rgb(198, 198, 198);
+  border-top-style: solid;
+  width: 100%;
+}
+
+.expense-header {
+  background-color: rgba(132, 212, 127, 255);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.expenseStatus-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.expenseStatus {
+  font-size: 24pt;
+  padding: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.expenseStatus span {
+  font-weight: bold;
+}
+
+.expenseInput-btn{
+  padding-left: 30px;
+}
+
+.expenseInput {
+  padding-right: 30px;
+  color: black;
+  font-size: 14pt;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.expenseList {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 8px 10px 20px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cost-expense {
+color:white;
+padding: 2px;
+background-color: #f44336;;
+border-radius: 10px;
+position: absolute;
+right: 70px;
+}
+
+.expenseList:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.expenseList:hover {
+  background: #ddd;
+}
+
+#expenseName, #expenseCost {
+  margin: 0;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  padding: 2px;
+}
+
+#expenseName {
+  width: 23%;
+}
+
+#expenseCost {
+  width: 20%;
+}
+
+.input-container {
+  padding: 10px;
+}
+
+.addBtn {
+  padding: 9px;
+  width: 22%;
+  background: green;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  border: none;
+}
+
+.addBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.addBtn:disabled {
+  background-color: gray; 
+    color: white ;
+}
+
+.deleteBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.deleteBtn:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.expenseLeft {
+  padding: 10px;
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+}
+

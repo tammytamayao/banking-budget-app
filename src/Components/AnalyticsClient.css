@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Mina&family=Open+Sans&family=Poppins:wght@200&family=Prompt:wght@400&family=Space+Grotesk:wght@300;400&display=swap');
+
+/*Mid-DBC DashBoard*/
+
+.AnalyticsClient-container-container{
+  height: 100%;
+  width: auto;
+}
+
+.AnalyticsClient-container {
+  background-color: rgb(221, 249, 224);
+  height: 100%;
+}
+
+.expense-container,
+.income-container {
+  background-color: rgb(240, 251, 241);
+  border-radius: 30px;
+  margin: 22.4px;
+  padding: 20px 35px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.recharts-surface {
+  border-radius: 10px;
+}
+
+.balance-container {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  background: rgb(240, 251, 241);
+  padding-left: 30px;
+  margin: 0px 20px;
+}
+
+.balance-title {
+  font-size: 40pt;
+  font-weight: bold;
+  font-family: 'Prompt', sans-serif;
+}
+
+.balance-label {
+  font-size: 13pt;
+}
+
+.graph-title {
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.graph-subtitle {
+  font-size: 14pt;
+  padding-left: 15px;
+}
+
+.graph-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px 10px;
+}
+
+.DateTime-container {
+    font-size: 22pt;
+    padding-top: 5px;
+    font-family: 'Prompt', sans-serif;
+  }
+
+.DateTimevalue {
+    font-weight: bold;
+  }
+
+.greeting-container {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-left: 30px; 
+  }
+
+.greeting-desc {
+    font-size: 32pt;
+    padding-left: 15px;
+  }
+
+.subheader {
+    font-size: 32px;
+    font-weight: bold;
+    color: green ;
+  }
+
+.logoGoldXS, .logoBlackXS {
+    text-decoration: none;
+    font-family: Bangkok;
+    font-size: 46px;
+  }
+
+  .logoGoldXS {
+    color: rgb(253, 201, 121);
+  }
+  
+  .logoBlackXS{
+    color: black; 
+  }
+

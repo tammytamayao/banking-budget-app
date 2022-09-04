@@ -1,0 +1,41 @@
+.Transaction-container{
+    background-color: rgba(207, 254, 212, 255);
+    width: 68.7%;
+}
+
+.Bargraph-container{
+    background-color: rgb(240, 251, 241);
+    padding: 30px;
+    margin: 15px;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.transactionList-container{
+    background-color: rgb(240, 251, 241);
+    padding: 50px;
+    margin: 15px;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.transactionCost{
+    float: right;
+}
+
+.transactionData{
+    background-color: #eee;
+    border-bottom: rgb(198, 198, 198);
+    border-bottom-style: solid;
+    border-top: rgb(198, 198, 198);
+    border-top-style: solid;
+}
+
+.transactionData:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.recharts-wrapper{
+    display: flex;
+    justify-content: center;
+}

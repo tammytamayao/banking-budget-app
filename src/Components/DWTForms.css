@@ -1,0 +1,77 @@
+/* Employee Transactions*/
+
+.DWTForm-container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+  }
+  
+  .DW-container, .T-container {
+    padding: 20px;
+  }
+  
+  .DW-container-container {
+    background:green;
+    padding-top: 20px;
+    min-height: 387px;
+    border-radius: 20px;
+  }
+  
+  .T-container-container {
+    background:green;
+    min-height: 507px;
+    border-radius: 20px;
+    padding-top: 20px;
+  }
+  
+  .DW-container-container-container {
+    padding-top: 120px;
+  }
+  
+  .T-container-container-container {
+    padding-top: 70px;
+  }
+  
+  
+  .DepositLeft, .WithdrawLeft {
+    width: 400px;
+    height: 330px;
+  }
+  
+  .TransferLeft {
+    width: 400px;
+    height: 500px;
+  }
+  
+  #Dimg {
+    height: 550px;
+    max-width: 800px;
+    padding-left: 60px;
+  }
+  
+  #Wimg {
+    height: 620px;
+    width: 730px;
+    padding-left: 60px;
+  }
+  
+  #Timg {
+    height: 680px;
+    width: 650px;
+    padding-left: 60px;
+  }
+  
+  .TransactionImg {
+    display: flex;
+  }
+  
+  .TransactionEmployee-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .depositRegForm-container, .withdrawRegForm-container, .transferRegForm-container   {
+   padding-left: 100px;
+  }
+  

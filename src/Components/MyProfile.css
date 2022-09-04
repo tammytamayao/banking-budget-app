@@ -1,0 +1,171 @@
+.rightDBE-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .myprofile {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .employee-profile-container {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  
+  .employee-profile {
+    padding:20px;
+    display: flex;
+    background: rgb(221, 249, 224);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+.MCP-label {
+    display: grid;
+    grid-template-rows: 32px 32px;
+  }
+  
+.MCP-img {
+    padding-left: 10px;
+  }
+  
+.MCP-name, .MCP-email {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18pt;
+  }
+  
+  
+.MCP-name {
+    align-items: flex-end;
+  }
+  
+.MCP-email {
+    align-items: flex-start;
+  }
+  
+.MPCIcon {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.myprofile-title, .myprofile-title {
+    display: flex;
+    padding: 25px 20px 12px 20px;
+    justify-content: flex-start;
+    font-size: 20pt;
+    font-weight:bold;
+}
+
+.myprofileinfo-label {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 8px 10px 20px;
+    border-bottom: 1pt solid #555;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+.AddClientBtn-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px 20px 10px;
+  }
+
+.AddClientBtn{
+    font-size: 20px;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    background:rgb(221, 249, 224);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+
+    width:60%;
+}
+
+.AddClientBtn:hover{
+    color: white;
+    background-color: black;
+}
+
+ /*To-do list*/
+ .todoList-container {
+  background-color: white;
+  border-radius: 15px;
+  border: 1pt solid black;
+  width: 100%;
+  height: 280px;
+}
+
+#todo-title {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#todoInput {
+  height: 27px;
+  width: 230px;
+  font-size: 12pt;
+}
+
+.todo-input-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.todobtn {
+  width: 25px;
+  font-size: 10pt;
+  font-weight: bold;
+  height: 30px;
+  border: 1pt solid black;
+  background:rgb(221, 249, 224);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.todobtn:hover {
+  color: rgba(132, 212, 127, 255);
+  background-color: black;
+  transition: 0.3s;
+}
+
+.todobtn-container {
+  padding-left: 10px;
+}
+
+.todoList {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 8px 10px 20px;
+  font-size: 18px;
+  transition: 0.2s;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.todoList:hover {
+  background: #ddd;
+}
+
+.taskname {
+  padding-left: 5px;
+}
+
+.checked-item,
+.not-checked-item {
+  margin-left: 10px;
+}
+.checked-item {
+  text-decoration: line-through;
+}

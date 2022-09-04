@@ -1,0 +1,61 @@
+/* Navigatin Bar */
+
+.navComp, .TransactionEmployee {
+    display: flex; 
+    list-style: none;
+    flex-direction: center ;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .TransactionEmployee {
+    height: 30px;
+    display: flex;
+    align-content: center;
+  }
+  
+  .navCompLink{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+    padding: 6px;
+  }
+  
+  .navComp{
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    padding: 6px;
+  }
+
+  .TnavComp{
+    text-decoration: none;
+    color: black;
+    font-size: 28pt;
+    padding: 6px;
+  }
+  
+  
+  .navCompLink:hover {
+    color: green;
+    transition: 0.1s;
+    background-color: white;
+    border-top: 3px;
+    border-color: green;
+    border-bottom-style: solid;
+  }
+  
+  #navHandLogo {
+    height: 55px;
+    margin-left: -2px;
+    z-index:0;
+  }
+  
+  .navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+/*Transaction Employee SubMenu*/

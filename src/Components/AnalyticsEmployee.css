@@ -1,0 +1,90 @@
+.AnalyticsEmployee-container-container{
+    height: 100%;
+    width: auto;
+  }
+
+  .AnalyticsEmployee-container {
+    background-color: rgb(221, 249, 224);
+    height: 100%;
+  }
+
+.subtitle {
+    font-weight: bold;
+    font-size: 18pt;
+    color: black;
+  }
+
+  .DateTime-container {
+    font-size: 18pt;
+    padding-top: 5px;
+    display: flex;
+  }
+  
+  .title {
+    color: rgba(132, 212, 127, 255);
+    font-family: Bangkok;
+    font-weight: bold;
+    font-size: 28pt;
+    text-decoration: underline black;
+    padding-bottom: 10px;
+  }
+  
+  .product-container, .service-container {
+    background-color: rgb(240, 251, 241);
+    border-radius: 30px;
+    margin: 22.4px;
+    padding: 20px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .description {
+    font-size: 14pt;
+    text-align: justify;
+    color: gray;
+  }
+  
+  .ps {
+    padding: 10px;
+  }
+  
+  .productsandservices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 10px;
+  }
+  
+  .desc-container {
+    padding: 15px;
+
+  }
+  
+  .Profile-Info {
+  padding-top: 10px;
+  padding-left: 10px;
+  }
+  
+  .profilename {
+    color: black;
+    font-weight: bold;
+    font-size: 32pt;
+    padding-left: 10px;
+  }
+  
+  .profileHeader{
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-desc, .profile-geninfo {
+    font-weight: bold;
+    font-size: 14pt;
+    color: gray;
+  }
+  
+  .profile-geninfo-container {
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 90px 200px;
+    padding-bottom: 20px;
+  }
